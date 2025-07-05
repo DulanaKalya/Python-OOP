@@ -27,7 +27,7 @@ class Bike(Vehicle):
         super().__init__(brand,model,year)
         self.num_of_wheels = num_of_wheels
 
-vehicles = [
+vehicles : list[Vehicle] = [
     Car("Ford","Focus",2008,4,4),
     Bike("Honda","Scoopy",2018,2)
 ]
