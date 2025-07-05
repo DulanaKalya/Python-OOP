@@ -24,4 +24,3 @@ account = BankAccount()
 
 account.deposit(1000)
 print(account.balance)
-
