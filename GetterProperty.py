@@ -17,9 +17,8 @@ class Person:
     @email.setter
     def email(self,new_email):
         self._email= new_email
-    
 
-    
+
 user = Person("Kamal"," kamal@gmail.com ",6767)
 
 print(user.email)
